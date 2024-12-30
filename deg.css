@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Main Navbar */
+.navbar {
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: fixed; /* Stick to the top */
+    top: 0;
+    z-index: 1000;
+}
+
+.text {
+    font-family: 'Times New Roman';
+    
+}
+.text p{
+    color: white;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.icon {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 50px;
+    color: white;
+    margin-right: 20px;
+}
+
+.description {
+    font-size: 14px;
+    color: white;
+    text-transform: capitalize;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu ul li {
+    margin: 0 15px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.menu ul li a:hover {
+    color: rgb(194, 194, 194);
+}
+
+/* Main Section */
+.main {
+    min-height: 50vh;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px; /* Add padding to avoid overlapping */
+}
+
+h1 {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+/* Secondary Navbar */
+.secondary-navbar {
+    background-color: rgba(34, 34, 34, 0.9);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.secondary-navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.secondary-navbar ul li {
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.secondary-navbar ul li:hover {
+    color: rgb(194, 194, 194);
+}
+
+/* Description Box */
+.description-box {
+    display: none; /* Initially hidden */
+    margin: 20px auto;
+    text-align: center;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 8px;
+    background-color: rgba(34, 34, 34, 0.8);
+    color: white;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

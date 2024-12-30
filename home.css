@@ -1,0 +1,121 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.banner
+{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(IMG_8984.jpg);
+    background-position: center;
+    background-size:cover;
+    position: relative;
+}
+.navbar {
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 0 20px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    color: rgb(194, 194, 194);
+    font-size: 50px;
+    font-family: Arial;
+    margin-right: 20px;
+    cursor:default;
+}
+
+.description {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: rgb(194, 194, 194);
+    text-align: left;
+    width: 300px;
+    text-transform: capitalize;
+    word-wrap: break-word;
+    cursor:default;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    margin: 0 20px;
+    font-size: 15px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(194, 194, 194);
+    font-family: Arial;
+    transition: color 0.3s ease;
+}
+
+.menu ul li a:hover {
+    color: rgb(255, 255, 255); /* Highlight on hover */
+}
+
+.para{
+    font-family: 'Times New Roman';
+    color: rgb(255, 251, 251);
+    font-size: 55px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin-top: 170px;
+}
+.text {
+    color: rgb(255, 251, 251);
+    font-size: 17px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin-top: 240px;
+    word-spacing: 2.5;
+}
+.button {
+    text-decoration: none;
+    border-radius: 4px;
+    border: 1px solid #fff;
+    font-size: 16px;
+    padding: 12px 12px;
+    cursor: pointer;
+    background: transparent;
+    text-align: center;
+    margin-top: 300px;
+    margin-left: 530px;
+    transition: color 0.5s ease;
+}
+.button a{
+    color:rgb(194, 194, 194);
+    text-decoration: none;
+}
+.button:hover {
+    background-color: rgb(255, 255, 255); 
+}
+.button:hover a {
+    color: black;
+}
+
+

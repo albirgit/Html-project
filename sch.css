@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    color: rgb(31, 26, 26);
+    font-size: 50px;
+    font-family: Arial;
+    margin-right: 20px;
+    cursor: default;
+}
+
+.description {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: rgb(31, 26, 26);
+    text-align: left;
+    width: 300px;
+    text-transform: capitalize;
+    word-wrap: break-word;
+    cursor: default;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    margin: 0 20px;
+    font-size: 15px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(31, 26, 26);
+    font-family: Arial;
+    transition: color 0.3s ease;
+}
+
+.menu ul li a:hover {
+    color: rgb(187, 184, 184);
+}
+
+/* Content and Table Styling */
+.content {
+    width: 100%;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.text-content, .image-content {
+    width: 50%;
+    vertical-align: top;
+    padding: 20px;
+}
+
+.text-content {
+    text-align: justify;
+}
+
+.image-content img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Remove garbage text below the image */
+.image-content p {
+    display: none;
+}
